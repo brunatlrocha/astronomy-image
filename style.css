@@ -1,0 +1,56 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 1px;
+  cursor: pointer;
+}
+
+#apodContainer img {
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#favoritesContainer {
+  margin-top: 20px;
+}
+
+#favoritesList {
+  list-style: none;
+  padding: 0;
+}
+
+#favoritesList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#favoritesList img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+#favoritesList button {
+  margin-left: auto;
+}

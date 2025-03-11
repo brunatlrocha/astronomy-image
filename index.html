@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Project 3</title>
+
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+      <h1>APOD Search</h1>
+      <form id="dateForm">
+          <label for="dateInput">Enter a date: </label>
+          <input type="date" id="dateInput" max="php echo date('Y-m-d');" required>
+          <button type="submit">Get Picture</button>
+      </form>
+      <div id="apodContainer"></div>
+      <div id="favoritesContainer">
+          <h2>Favorites</h2>
+          <ul id="favoritesList"></ul>
+      </div>
+  </div>
+</body>
+</html>
